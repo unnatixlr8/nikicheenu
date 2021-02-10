@@ -1,0 +1,39 @@
+html {
+    height: 100%;
+    overflow: hidden;
+  }
+
+
+#bg {
+    position: fixed; 
+    top: -50%; 
+    left: -50%; 
+    width: 200%; 
+    height: 200%;
+    z-index: -1;
+  }
+  #bg img {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    margin: auto; 
+    min-width: 50%;
+    min-height: 50%;
+  }
+
+  #tagline {
+    font-family: 'Roboto Mono', monospace;
+    color:white;
+    font-size:50px;
+    text-align: center;
+  }
+
+  #message {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 22px;
+    bottom:20px;
+    text-align: center;
+    color: white;
+  }
